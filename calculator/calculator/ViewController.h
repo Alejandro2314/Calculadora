@@ -15,6 +15,7 @@
 - (IBAction)btnrestar:(UIButton *)sender;
 - (IBAction)btndividir:(UIButton *)sender;
 - (IBAction)btnmultiplicar:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UILabel *resultadoLabel;
 
 
 @end

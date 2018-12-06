@@ -76,11 +76,18 @@
                                     <action selector="btndividir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UH0-wG-kC1"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ruc-Yg-cn7">
+                                <rect key="frame" x="162" y="426" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BRS-86-RyM" secondAttribute="trailing" constant="68" id="0aY-tx-gM2"/>
                             <constraint firstItem="fKu-0h-HxN" firstAttribute="top" secondItem="znn-eM-dG1" secondAttribute="bottom" constant="29" id="0q4-Ez-pO0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ruc-Yg-cn7" secondAttribute="trailing" constant="136" id="1WH-EM-PRE"/>
                             <constraint firstItem="Ltr-BL-ivL" firstAttribute="baseline" secondItem="Xam-Jx-yhD" secondAttribute="baseline" id="2If-Qx-JyA"/>
                             <constraint firstItem="zLn-oH-DoB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="3f8-1c-f1N"/>
                             <constraint firstItem="znn-eM-dG1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="4HY-gO-Try"/>
@@ -89,9 +96,11 @@
                             <constraint firstItem="PRk-YP-xAP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="CO3-4r-LqW"/>
                             <constraint firstItem="bSZ-P3-EFw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="GPC-z0-afH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bSZ-P3-EFw" secondAttribute="trailing" constant="126" id="I9n-oB-EG3"/>
+                            <constraint firstItem="Ruc-Yg-cn7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162" id="PHp-RY-TNF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xam-Jx-yhD" secondAttribute="trailing" constant="70" id="Q6G-qa-cZk"/>
                             <constraint firstItem="fKu-0h-HxN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="RcB-4D-qzw"/>
                             <constraint firstItem="bSZ-P3-EFw" firstAttribute="top" secondItem="BRS-86-RyM" secondAttribute="bottom" constant="23" id="S4p-fF-63Q"/>
+                            <constraint firstItem="Ruc-Yg-cn7" firstAttribute="top" secondItem="Xam-Jx-yhD" secondAttribute="bottom" constant="24" id="WZj-wC-nI0"/>
                             <constraint firstItem="zLn-oH-DoB" firstAttribute="top" secondItem="bSZ-P3-EFw" secondAttribute="bottom" constant="43" id="aCx-nh-8gG"/>
                             <constraint firstItem="Ltr-BL-ivL" firstAttribute="leading" secondItem="PRk-YP-xAP" secondAttribute="trailing" constant="21" id="dqL-k2-Sne"/>
                             <constraint firstItem="Xam-Jx-yhD" firstAttribute="top" secondItem="zLn-oH-DoB" secondAttribute="bottom" constant="50" id="e7i-JV-Pqr"/>
@@ -111,6 +120,7 @@
                     <connections>
                         <outlet property="numberone" destination="fKu-0h-HxN" id="aTf-Ml-RdV"/>
                         <outlet property="numbertwo" destination="bSZ-P3-EFw" id="uC6-C8-bHo"/>
+                        <outlet property="resultadoLabel" destination="Ruc-Yg-cn7" id="zec-gU-quE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
